@@ -6,6 +6,7 @@
  * Java는 클래스 단위로 실행되고 소스코드 역시 클래스 단위로 작성됨 
  * main() 메소드가 포함된 클래스명과 .java 파일명(소스 코드 파일명)이 동일해야함.
  * Java 프로그램은 main() 메소드부터 실행됨.
+ * main() 메소드는 단 하나의 클래스에만 정의되어야 함.
  */
 public class HelloApplication {
     public static void main(String arg[]) {
